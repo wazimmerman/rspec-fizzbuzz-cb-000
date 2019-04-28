@@ -1,9 +1,9 @@
 def fizzbuzz(int)
   if int % 3
-    puts "Fizz"
+    return "Fizz"
   elsif int % 5
-    puts "Buzz"
+    return "Buzz"
   elsif int % 15
-    puts "FizzBuzz"
+    return "FizzBuzz"
 end
 end
