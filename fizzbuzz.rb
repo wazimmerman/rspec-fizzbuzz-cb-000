@@ -1,8 +1,8 @@
-def fizzbuzz(x)
-  if x == 3
+def fizzbuzz(int)
+  if int % 3 == 0
     puts "Fizz"
-  elsif x == 5
+  elsif int % 5 == 0
     puts "Buzz"
-  elsif x == 15
+  elsif int % 15 == 0 
     puts "fizzbuzz"
 end
